@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" style="color:white">Jaago Bharat  |  Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="m.home.php"><img src="menu/home.png" style="margin-right:10px">Home</a></li>
+		<li><a href="m.latestevents.php"><img src="menu/event.png" style="margin-right:10px">Latest Event</a></li>
+		<li><a href="m.latestnews.php"><img src="menu/latest.png" style="margin-right:10px">Latest News</a></li>
+		<li><a href="m.about.php"><img src="menu/about.png" style="margin-right:10px">About Us</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="menu/join.png" style="margin-right:10px">Join Us<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="m.joinsocialwing.php">Join Social Wing</a></li>
+            <li><a href="m.joinculturalwing.php">Join Cultural Wing</a></li>
+            <li><a href="m.joinpoliticalwing.php">Join Political Wing</a></li>
+          </ul>
+        </li>
+		<li><a href="m.gallery.php"><img src="menu/gallery.png" style="margin-right:10px">Visit Gallery</a></li>
+        <li><a href="m.donate.php"><img src="menu/donate.png" style="margin-right:10px">Donate</a></li>
+        <li><a href="m.contact.php"><img src="menu/contact.png" style="margin-right:10px">Contact Us</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  <style>
+  .icon_1{float:left;margin-left:0%;margin-top:10%;color:#1e7a00;font-family:arial;font-size:1.2em;text-align:center}
+  .icon_2{float:left;margin-left:7%;margin-right:7%;margin-top:10%;color:#1e7a00;font-family:arial;font-size:1.2em;text-align:center} 
+  .icon_3{float:left;margin-right:0%;margin-top:10%;color:#1e7a00;font-family:arial;font-size:1.2em;text-align:center}
+  .logo_txt1{float:left;margin-left:10px;color:#1e7a00;font-family:arial;}
+  .logo_txt2{float:right;margin-right:10px;color:#1e7a00;font-family:arial;}
+  .logo{margin-top:20%} 
+  .footer{clear:both}
+  .scroll-left {
+ height:30px;	
+ overflow: hidden;
+ position: relative;
+ background: white;
+ color: #FFA500;
+ border: ;
+}
+.scroll-left p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 30px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 15s linear infinite;
+ -webkit-animation: scroll-left 15s linear infinite;
+ animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
+.scroll-l {
+ height:30px;	
+ overflow: hidden;
+ position: relative;
+ background: #262626;
+ color: white;
+ border: ;
+}
+.scroll-l p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 30px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 15s linear infinite;
+ -webkit-animation: scroll-left 15s linear infinite;
+ animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
+</style><div style="width:97%">
+<div class="logo">
+<div class="scroll-left">
+<p><b>Event on 21.Feb.2016 | Visit News Now</b></p></div>
+</div>
+<div class="container">
+
+<div class="logo_txt1">सामाजिक हित सर्वप्रथम </div>
+<div class="logo_txt2">राष्ट्र सर्वोपरि</div>
+<div  style="margin:0 auto">
+<img src="logo3.png">
+</div><p style="color:#009ACD;font-family:arial;font-size:1.2em;"><b>
+Latest</b></p>
+<div class="icon_1"><a href="m.latestnews.php"><img src="icons/news.png"><br><b>News</b></a></div>
+<div class="icon_2"><a href="m.latestevents.php"><img src="icons/events.png"><br><b>Events</b></a></div>
+<div class="icon_3"><a href="m.gallery.php"><img src="icons/gallery.png"><br><b>Gallery</b></a></div>
+<div class="icon_1"><a href="m.about.php"><img src="icons/about.png"><br><b>About</b></a></div>
+<div class="icon_2"><a href="m.contact.php"><img src="icons/contact.png"><br><b>Contact</b></a></div>
+<div class="icon_3"><a href="m.join.php"><img src="icons/join.png"><br><b>Join</b></a></div>
+<div class="icon_1"><a href=""><img src="icons/fb.png"><br><b>Follow</b></a></div>
+<div class="icon_2"><a href=""><img src="icons/twitter.png"><br><b>Follow</b></a></div>
+<div class="icon_3"><a href="m.donate.php"><img src="icons/donate.png"><br><b>Donate</b></a></div>
+
+
+</div>
+<br><br><br><br>
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="m.home.php" style="color:white"> Home</a>  <a class="navbar-brand" href="m.faq.php" style="color:white">FAQ</a>
+        <div class="scroll-l">
+<p><b>Event on 21.Feb.2016 | Visit News Now</b></p></div>
+    </div></div>
+</nav>
+
+</div>
+</html>
